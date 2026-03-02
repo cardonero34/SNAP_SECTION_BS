@@ -1,42 +1,33 @@
 /* sistema de gid */
+import "../stylesheets/Home.css"
 
 export const Home = () => {
     return (
         <>
-            <div className="container text-center">
+            <div className="container">
                 {/* las columnas las puedes distrinuir teniendo en cuenta un margen de 0 a 12 calculados entre cada columna*/}
-                <h1>row 1</h1>
                 <div className="row">
-                                     {/* responsive 👇*/}
-                    <div className="col-6 col-md-4 col-lg-3 border">
-                        Column
-                    </div>
-                                     {/* responsive 👇*/}                    
-                    <div className="col-6 col-md-4 col-lg-3 border">
-                        Column
-                    </div>
-                                     {/* responsive 👇*/}                    
-                    <div className="col-6 col-md-4 col-lg-3 border">
-                        Column
-                    </div>
-                                     {/* responsive 👇*/}                    
-                    <div className="col-6 col-md-12 col-lg-3 border">
-                        Column
-                    </div>
-                </div>
-                <h1>row 2</h1>
-                <div className="row">
+
                     <div className="col-6">
-                        Column
+                        <div className="d-flex flex-column justify-content-center h-100 gap-5" >
+                            <div >
+                                <h1>Make <br /> remote work</h1>
+                                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and FR watch productivity soar.</p>
+                                <a href="http://www.jango.com" class="btn btn-secondary btn-lg btn-dark">Learn more</a>
+                            </div>
+                            <div className="d-flex flex-row d-grid gap-5">
+                                <img src="../public/img1.svg" height="25" alt="" />
+                                <img src="../public/img2.svg" height="25" alt="" />
+                                <img src="../public/img3.svg" height="25" alt="" />
+                                <img src="../public/img4.svg" height="25" alt="" />
+                            </div>
+                        </div>
                     </div>
+                    {/* responsive 👇 col-lg-3 col-md-12 */}
                     <div className="col-6">
-                        Column
-                    </div>
-                    <div className="col-6">
-                        Column
-                    </div>
-                    <div className="col-6">
-                        Column
+                        <div>
+                            <img src="../public/img.png" className="img-cropped" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
