@@ -5,9 +5,28 @@
   font-style: normal;
 }
 
-.title {
+.careers-page {
   font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 70px;
-  color: #163a34;
+  font-weight: 500;
+  font-size: 1.25rem;
+
+  .title {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color: #163a34;
+  }
+
+  a {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    padding: 0.8rem 1.8rem;
+  }
+
+  .title2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #163a34;
+  }
 }
