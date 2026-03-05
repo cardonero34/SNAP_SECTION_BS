@@ -42,7 +42,7 @@ export const Header = () => {
                         </ul>
                         <form className="d-flex">
                             <button type="button" className="btn text-secondary">Login</button>
-                            <button type="button" class="btn btn-outline-secondary">Register</button>
+                            <button type="button" className="btn btn-outline-secondary">Register</button>
                         </form>
                     </div>
                 </div>
