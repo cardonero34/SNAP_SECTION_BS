@@ -28,7 +28,7 @@ export const Login = () => {
                         </div>
                     </div>
                     <div className="col p-0 ">
-                        <img src="../public/imgLR/imgL.jpg" className="img-fluid rounded-5 shadow-lg" />
+                        <img src="/imgLR/imgL.jpg" className="img-fluid rounded-5 shadow-lg" />
                     </div>
                 </div>
             </div>

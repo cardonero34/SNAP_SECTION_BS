@@ -5,7 +5,7 @@ export const Register = () => {
             <div className="container d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
                 <div className="row w-80 d-flex align-items-center" >
                     <div className="col p-0 ">
-                        <img src="../public/imgLR/imgR.jpg" className="float-end rounded-5 shadow-lg" style={{ width: "100%" }} />
+                        <img src="/imgLR/imgR.jpg" className="float-end rounded-5 shadow-lg" style={{ width: "100%" }} />
                     </div>
                     <div className="col d-flex align-items-center justify-content-center rounded-end-5 my-5 shadow-lg" style={{ backgroundColor: "#e5eff5" }}>
                         <div>

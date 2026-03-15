@@ -16,17 +16,17 @@ export const Home = () => {
                                 <a href="http://www.jango.com" className="btn btn-secondary btn-lg btn-dark">Learn more</a>
                             </div>
                             <div className="d-flex flex-row d-grid gap-5">
-                                <img src="../public/img1.svg" height="25"/>
-                                <img src="../public/img2.svg" height="25"/>
-                                <img src="../public/img3.svg" height="25"/>
-                                <img src="../public/img4.svg" height="25"/>
+                                <img src="/img1.svg" height="25"/>
+                                <img src="/img2.svg" height="25"/>
+                                <img src="/img3.svg" height="25"/>
+                                <img src="/img4.svg" height="25"/>
                             </div>
                         </div>
                     </div>
                     {/* responsive 👇 col-lg-3 col-md-12 */}
                     <div className="col-6">
                         <div>
-                            <img src="../public/img.png" className="img-cropped"/>
+                            <img src="/img.png" className="img-cropped"/>
                         </div>
                     </div>
                 </div>

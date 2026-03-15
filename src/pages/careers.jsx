@@ -16,20 +16,20 @@ export const Careers = () => {
                     </div>
                     <div style={{ width: "80%" }}>
                         <div className="rounded-5" style={{ backgroundColor: "White" }}>
-                            <img src="../public/img_careers/image-home-hero-large.webp" className="img-fluid p-3 rounded-5" />
+                            <img src="/img_careers/image-home-hero-large.webp" className="img-fluid p-3 rounded-5" />
                         </div>
                     </div>
                     <div style={{ width: "80%" }} className="border-bottom border-1 border-grey py-5">
                         <p className="title2 text-center m-0"> What you’ll get </p>
                         <div className="row py-5">
                             <div className="col ">
-                                <Comp1 img="../public/img_careers/icon-whole-food-recipes.svg" title="Whole-food recipes" description="Each dish uses everyday, unprocessed ingredients." />
+                                <Comp1 img="/img_careers/icon-whole-food-recipes.svg" title="Whole-food recipes" description="Each dish uses everyday, unprocessed ingredients." />
                             </div>
                             <div className="col ">
-                                <Comp1 img="../public/img_careers/icon-minimum-fuss.svg" title="Minimum fuss" description="All recipes are designed to make eating healthy quick and easy." />
+                                <Comp1 img="/img_careers/icon-minimum-fuss.svg" title="Minimum fuss" description="All recipes are designed to make eating healthy quick and easy." />
                             </div>
                             <div className="col ">
-                                <Comp1 img="../public/img_careers/icon-search-in-seconds.svg" title="Search in seconds" description="Filter by name or ingredient and jump straight to the recipe you need." />
+                                <Comp1 img="/img_careers/icon-search-in-seconds.svg" title="Search in seconds" description="Filter by name or ingredient and jump straight to the recipe you need." />
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export const Careers = () => {
                                 </p>
                             </div>
                             <div style={{width: "55%"}}>
-                                <img src="../public/img_careers/image-home-real-life-large.webp" className="rounded-4" style={{ width: "100%" }} />
+                                <img src="/img_careers/image-home-real-life-large.webp" className="rounded-4" style={{ width: "100%" }} />
                             </div>
                         </div>
                     </div>
@@ -55,12 +55,12 @@ export const Careers = () => {
                                 Hit the button, pick a recipe, and get dinner on the table—fast.
                             </p>
                             <a className="btn btn-lg" style={{ backgroundColor: "#163a34", color: "white" }} > Browse recipes </a>
-                            <img src="../public/img_careers/pattern-fork.svg" style={{
+                            <img src="/img_careers/pattern-fork.svg" style={{
                                 position: "absolute",
                                 left: "-65px",
                                 top: "-10px"
                             }} />
-                            <img src="../public/img_careers/pattern-knife.svg" style={{
+                            <img src="/img_careers/pattern-knife.svg" style={{
                                 position: "absolute",
                                 right: "-54px",
                                 top: "-10px"
